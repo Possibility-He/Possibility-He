@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="#111827"/>
+  <rect x="28" y="28" width="1144" height="244" rx="18" fill="#0b1220" stroke="#374151" stroke-width="2"/>
+  <circle cx="66" cy="67" r="7" fill="#f87171"/>
+  <circle cx="90" cy="67" r="7" fill="#fbbf24"/>
+  <circle cx="114" cy="67" r="7" fill="#34d399"/>
+  <text x="66" y="145" fill="#9ca3af" font-family="Consolas, monospace" font-size="22">~/github</text>
+  <text x="66" y="205" fill="#34d399" font-family="Consolas, monospace" font-size="42" font-weight="700">$ pengp8029-cmd</text>
+  <text x="500" y="205" fill="#f9fafb" font-family="Consolas, monospace" font-size="28">Welcome to my profile</text>
+</svg>

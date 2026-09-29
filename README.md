@@ -33,3 +33,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<p align="center">
+  <a href="https://github.com/Possibility-He"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Possibility--He-1f7a4d?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:2308817979@qq.com"><img alt="Email" src="https://img.shields.io/badge/Email-2308817979%40qq.com-d4a24e?style=for-the-badge&logo=qq&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img alt="技能" src="https://img.shields.io/badge/技能-Python%20%2F%20AI%20%2F%20Desktop-1f7a4d?style=for-the-badge" />
+  <img alt="状态" src="https://img.shields.io/badge/状态-空闲中-3fae8a?style=for-the-badge" />
+</p>

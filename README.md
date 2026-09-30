@@ -2,7 +2,7 @@
 
 ## Hi there 👋 很高兴认识你😄
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=1F7A4D&center=true&vCenter=true&width=600&height=45&lines=Hi%2C+I%27m+Kuiuiy;Independent+developer;Python+%2F+AI+%2F+Desktop;Building+useful+tools+and+learning+every+day)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&height=45&lines=Hi%2C+I%27m+Kuiuiy;Independent+developer;Python+%2F+AI+%2F+Desktop;Building+useful+tools+and+learning+every+day)](https://git.io/typing-svg)
 
 <div id="title" align=center>
 
@@ -21,7 +21,6 @@
 
 
 
-
 <!--
 **pengp8029-cmd/pengp8029-cmd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -36,7 +35,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
 
 ## ANIMATED SCENES
 

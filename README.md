@@ -44,3 +44,16 @@ Here are some ideas to get you started:
   <img alt="技能" src="https://img.shields.io/badge/技能-Python%20%2F%20AI%20%2F%20Desktop-1f7a4d?style=for-the-badge" />
   <img alt="状态" src="https://img.shields.io/badge/状态-空闲中-3fae8a?style=for-the-badge" />
 </p>
+
+## ANIMATED SCENES
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/scene_night_dark.svg" alt="Night coding scene" width="100%" /></td>
+    <td width="50%"><img src="assets/scene_music_dark.svg" alt="Now playing music scene" width="100%" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/kline_dark.svg" alt="Animated K-line chart" width="100%" /></td>
+    <td width="50%"><img src="assets/wheel_dark.svg" alt="Animated turntable scene" width="100%" /></td>
+  </tr>
+</table>

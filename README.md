@@ -8,7 +8,7 @@
 
 ## Hi there 👋 很高兴认识你😄
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&height=45&lines=Hi%2C+I%27m+Kuiuiy;Independent+developer;Python+%2F+AI+%2F+Desktop;Building+useful+tools+and+learning+every+day)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&height=45&lines=Hi%2C+I%27m+Kuiuiy;Independent+developer;AI%2FC;Building+useful+tools+and+learning+every+day)](https://git.io/typing-svg)
 
 <div id="title" align=center>
 

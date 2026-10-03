@@ -1,10 +1,10 @@
-![Profile banner](./assets/banner.svg)
-
 <p align="center">
   <a href="https://github.com/Possibility-He">
     <img src="assets/avatar.svg" alt="Possibility-He animated avatar" width="160" />
   </a>
 </p>
+
+![Profile banner](./assets/banner.svg)
 
 ## Hi there 👋 很高兴认识你😄
 

@@ -61,6 +61,6 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-  <img alt="技能" src="https://img.shields.io/badge/技能-Python%20%2F%20AI%20%2F%20Desktop-1f7a4d?style=for-the-badge" />
+  <img alt="技能" src="https://img.shields.io/badge/技能-AI%20%2F%20C-1f7a4d?style=for-the-badge" />
   <img alt="状态" src="https://img.shields.io/badge/状态-空闲中-3fae8a?style=for-the-badge" />
 </p>

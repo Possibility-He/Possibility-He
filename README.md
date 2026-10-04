@@ -6,7 +6,7 @@
 
 ![Profile banner](./assets/banner.svg)
 
-## Hi there 👋 很高兴认识你😄
+<h2 align="center">Hi there 👋 很高兴认识你😄</h2>
 
 <p align="center">
   <a href="https://git.io/typing-svg">

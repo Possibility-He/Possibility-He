@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Possibility-He">
-    <img src="assets/avatar.svg" alt="Possibility-He animated avatar with football goal background" width="480" />
+    <img src="assets/avatar.svg" alt="Possibility-He animated avatar with football goal background" width="100%" />
   </a>
 </p>
 

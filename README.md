@@ -59,6 +59,16 @@ Here are some ideas to get you started:
   </tr>
 </table>
 
+## CONTRIBUTION SNAKE
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Possibility-He/Possibility-He/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Possibility-He/Possibility-He/output/github-snake.svg" />
+    <img alt="Possibility-He contribution snake animation" src="https://raw.githubusercontent.com/Possibility-He/Possibility-He/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
 <p align="center">
   <a href="https://github.com/Possibility-He"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Possibility--He-1f7a4d?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="mailto:2308817979@qq.com"><img alt="Email" src="https://img.shields.io/badge/Email-2308817979%40qq.com-d4a24e?style=for-the-badge&logo=qq&logoColor=white" /></a>

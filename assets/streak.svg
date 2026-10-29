@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220">
+  <rect x="0.5" y="0.5" width="494" height="219" fill="#0d1117" rx="6" stroke="#2f8f5f" stroke-width="1"/>
+  <text x="247" y="28" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#c9d1d9" letter-spacing="0.4">Total Contributions</text>
+  <text x="247" y="62" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#c9d1d9">77</text>
+  <text x="247" y="92" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#d4a24e" letter-spacing="0.4">Current Streak</text>
+  <circle cx="257" cy="120" r="20" fill="none" stroke="#1f7a4d" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="219" y="132" text-anchor="middle" font-family="Segoe UI Emoji,Apple Color Emoji,Segoe UI,sans-serif" font-size="28">🔥</text>
+  <text x="257" y="130" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#c9d1d9">0</text>
+  <text x="247" y="155" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" fill="#8b949e">no active streak</text>
+  <text x="247" y="180" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" fill="#c9d1d9" letter-spacing="0.4">Longest Streak</text>
+  <text x="247" y="205" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#c9d1d9">3 days</text>
+</svg>

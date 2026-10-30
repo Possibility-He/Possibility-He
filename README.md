@@ -63,7 +63,7 @@ Here are some ideas to get you started:
 
 <table>
   <tr>
-    <td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=Possibility-He&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=d4a24e&amp;icon_color=2f8f5f&amp;text_color=c9d1d9" alt="GitHub stats" width="100%" /></td>
+    <td width="50%"><img src="assets/stats.svg" alt="GitHub stats" width="100%" /></td>
     <td width="50%"><img src="assets/streak.svg" alt="Contribution streak" width="100%" /></td>
   </tr>
 </table>

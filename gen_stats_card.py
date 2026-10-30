@@ -23,6 +23,7 @@ import math
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -45,15 +46,33 @@ TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 
 
 # ---------- GitHub API ----------
+def fetch(req, timeout: int = 20, attempts: int = 4, backoff: float = 2.0):
+    """带重试的 urlopen —— 这个环境到 GitHub 的连接偶发中断（SSL EOF / 超时）。"""
+    last = None
+    for i in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read(), dict(r.headers)
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 409):          # 空仓库等，直接交给调用方处理
+                raise
+            last = e
+        except Exception as e:                # noqa: BLE001  SSL EOF / timeout / reset
+            last = e
+        if i + 1 < attempts:
+            time.sleep(backoff * (i + 1))
+    raise last
+
+
 def api(path: str):
     req = urllib.request.Request(f"{API}{path}", headers={
         "User-Agent": UA,
         "Accept": "application/vnd.github+json",
         **({"Authorization": f"Bearer {TOKEN}"} if TOKEN else {}),
     })
-    with urllib.request.urlopen(req, timeout=20) as r:
-        raw = r.read().decode("utf-8")
-        return (json.loads(raw) if raw.strip() else None), dict(r.headers)
+    body, headers = fetch(req)
+    raw = body.decode("utf-8")
+    return (json.loads(raw) if raw.strip() else None), headers
 
 
 def count_commits(user: str, full_name: str) -> int:
@@ -63,9 +82,9 @@ def count_commits(user: str, full_name: str) -> int:
         headers={"User-Agent": UA, "Accept": "application/vnd.github+json",
                  **({"Authorization": f"Bearer {TOKEN}"} if TOKEN else {})})
     try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            link = r.headers.get("Link", "")
-            items = json.loads(r.read().decode("utf-8"))
+        body, headers = fetch(req)
+        link = headers.get("Link", "")
+        items = json.loads(body.decode("utf-8"))
     except urllib.error.HTTPError as e:      # 空仓库返回 409/404
         if e.code in (404, 409):
             return 0
@@ -88,8 +107,8 @@ def contributions_last_year(user: str) -> int:
     """复用 streak 卡那套：解析贡献日历页 h2 的总数。"""
     req = urllib.request.Request(f"https://github.com/users/{user}/contributions",
                                 headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        html = r.read().decode("utf-8")
+    body, _ = fetch(req)
+    html = body.decode("utf-8")
     m = re.search(r'<h2[^>]*id="js-contribution-activity-description"[^>]*>\s*'
                   r'([\d,]+)\s+contribution', html)
     return int(m.group(1).replace(",", "")) if m else 0
@@ -118,7 +137,8 @@ def calculate_rank(stars: int, commits: int, prs: int, issues: int, followers: i
 
 # ---------- 画卡片 ----------
 def render(stats: dict) -> str:
-    W, H = 495, 195
+    # 和 streak 卡保持完全一致的画布尺寸（495x220），两卡并排时高度才一致
+    W, H = 495, 220
     grade, score = stats["grade"], stats["score"]
     rows = [
         ("⭐", "Total Stars Earned", stats["stars"]),
@@ -130,10 +150,10 @@ def render(stats: dict) -> str:
 
     p = [f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" fill="{BG}" rx="6" '
          f'stroke="{GREEN}" stroke-width="1"/>']
-    p.append(f'<text x="26" y="34" font-family="Segoe UI,Arial,sans-serif" font-size="16" '
+    p.append(f'<text x="26" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="16" '
              f'font-weight="700" fill="{GOLD}">{stats["title"]}</text>')
 
-    y = 66
+    y = 84
     for icon, label, value in rows:
         p.append(f'<text x="26" y="{y}" font-family="Segoe UI Emoji,Segoe UI,sans-serif" '
                  f'font-size="13">{icon}</text>')
@@ -142,10 +162,10 @@ def render(stats: dict) -> str:
         p.append(f'<text x="292" y="{y}" text-anchor="end" '
                  f'font-family="Segoe UI,Arial,sans-serif" font-size="13" '
                  f'font-weight="700" fill="#ffffff">{value}</text>')
-        y += 24
+        y += 27
 
     # 右下的评级环：底色环 + 按 score 画的弧
-    cx, cy, r = 386, 104, 46
+    cx, cy, r = 386, 120, 48
     circ = 2 * math.pi * r
     filled = circ * min(max(score, 0), 100) / 100
     p.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{TRACK}" '

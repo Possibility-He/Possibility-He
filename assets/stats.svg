@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
-  <rect x="0.5" y="0.5" width="494" height="194" fill="#0d1117" rx="6" stroke="#2f8f5f" stroke-width="1"/>
-  <text x="26" y="34" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#d4a24e">Kuiuiy's GitHub Stats</text>
-  <text x="26" y="66" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">⭐</text>
-  <text x="48" y="66" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total Stars Earned:</text>
-  <text x="292" y="66" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
-  <text x="26" y="90" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">🕒</text>
-  <text x="48" y="90" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total Commits:</text>
-  <text x="292" y="90" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">57</text>
-  <text x="26" y="114" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">🔀</text>
-  <text x="48" y="114" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total PRs:</text>
-  <text x="292" y="114" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
-  <text x="26" y="138" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">🐛</text>
-  <text x="48" y="138" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total Issues:</text>
-  <text x="292" y="138" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">0</text>
-  <text x="26" y="162" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">📈</text>
-  <text x="48" y="162" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Contributions (1y):</text>
-  <text x="292" y="162" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">78</text>
-  <circle cx="386" cy="104" r="46" fill="none" stroke="#30363d" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="386" cy="104" r="46" fill="none" stroke="#d4a24e" stroke-width="8" stroke-linecap="round" stroke-dasharray="263.2 25.8" transform="rotate(-90 386 104)"/>
-  <text x="386" y="113" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#ffffff">C</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220">
+  <rect x="0.5" y="0.5" width="494" height="219" fill="#0d1117" rx="6" stroke="#2f8f5f" stroke-width="1"/>
+  <text x="26" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#d4a24e">Kuiuiy's GitHub Stats</text>
+  <text x="26" y="84" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">⭐</text>
+  <text x="48" y="84" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total Stars Earned:</text>
+  <text x="292" y="84" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+  <text x="26" y="111" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">🕒</text>
+  <text x="48" y="111" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total Commits:</text>
+  <text x="292" y="111" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">59</text>
+  <text x="26" y="138" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">🔀</text>
+  <text x="48" y="138" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total PRs:</text>
+  <text x="292" y="138" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+  <text x="26" y="165" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">🐛</text>
+  <text x="48" y="165" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Total Issues:</text>
+  <text x="292" y="165" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">0</text>
+  <text x="26" y="192" font-family="Segoe UI Emoji,Segoe UI,sans-serif" font-size="13">📈</text>
+  <text x="48" y="192" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#c9d1d9">Contributions (1y):</text>
+  <text x="292" y="192" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">80</text>
+  <circle cx="386" cy="120" r="48" fill="none" stroke="#30363d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="386" cy="120" r="48" fill="none" stroke="#d4a24e" stroke-width="8" stroke-linecap="round" stroke-dasharray="274.4 27.2" transform="rotate(-90 386 120)"/>
+  <text x="386" y="129" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#ffffff">C</text>
 </svg>
